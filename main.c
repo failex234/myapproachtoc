@@ -1,5 +1,5 @@
 /*
-* Every String except for the comments are in German!
+* Every String except for the comments is in German!
 * Don't expect to understand anything...
 */
 
