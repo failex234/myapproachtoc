@@ -292,7 +292,7 @@ int binokoeff(int n, int k) {
     }
 }
 /*
-* Super simple program to add to integers together.
+* Super simple program to add two integers together.
 */
 int add(int a, int b) {
     return a+b;
@@ -304,7 +304,7 @@ int sub(int a, int b) {
     return a-b;
 }
 /*
-* Simple program to multiply to integers.
+* Simple program to multiply two integers.
 */
 int multiply(int a, int b) {
     return a*b;
