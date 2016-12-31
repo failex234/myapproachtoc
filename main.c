@@ -258,7 +258,7 @@ void defaultending() {
     }
 }
 /*
-* Program to recursivly? calculate the factorial of a number
+* Program to recursively calculate the factorial of a number
 * originally written in Java but ported over.
 */
 int fak(int n) {
