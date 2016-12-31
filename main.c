@@ -1,3 +1,8 @@
+/*
+* Every String except for the comments are in German!
+* Don't expect to understand anything...
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -7,6 +12,12 @@ int main(int argc, char *argv[])
     int nodisclaimer = 0;
     int greet = 0;
     int debug = 0;
+    /*
+    * This if block is pretty unnessecary because the program is
+    * always executed with at least one argument.
+    *
+    * For loop checks every given argument.
+    */
     if (argc) {
         for (int i = 0;i < argc;i++) {
             if (!strcmp(argv[i],"--disclaimer:false")) nodisclaimer = 1;
@@ -31,7 +42,7 @@ int main(int argc, char *argv[])
     return 1;
 }
 /*
-* This is a workaround to clear the screen I found somewhere on StackOverflow.
+* This is a workaround to clear the screen I found on StackOverflow by Jamesits.
 * It should work on both Windows and Unix-based operating systems.
 */
 void cls() {
